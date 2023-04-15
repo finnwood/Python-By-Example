@@ -1,0 +1,7 @@
+firstLine = input("Type in the first line of a nursery line ")
+length = len(firstLine)
+print("The length of the line is ",length)
+start = int(input("What is the position of the first character"))
+end = int(input("What is the position of the last Character"))
+part = (firstLine[start:end])
+print("the section of string chosen is ",part)
